@@ -3,4 +3,17 @@
     line-height: 22px;
     color: #fff;
     cursor: pointer;
+    grid-area: link;
+    align-self: end;
+    position: relative;
+}
+
+.places__link:before {
+    content:'URL';
+    display: inline-block;
+    color:#aaa;
+    text-decoration: none;
+    top: -34px;
+    position: absolute;
+
 }
