@@ -1,0 +1,5 @@
+.cover {
+    background-image: url("../../images/cover-trains.jpg");
+    background-size: cover;
+    text-align: center;
+}
