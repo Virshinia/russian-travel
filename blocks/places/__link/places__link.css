@@ -17,3 +17,12 @@
     position: absolute;
 
 }
+
+.places__link:hover::before {
+    opacity: 1;
+}
+
+.places__link:hover {
+    opacity: .8;
+    transition: opacity 0.5s ease-out;
+}

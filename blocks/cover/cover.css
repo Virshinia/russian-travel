@@ -1,5 +1,6 @@
 .cover {
-    background: linear-gradient(rgba(42, 44, 47, 0.3), rgba(42, 44, 47, 0.3)), url("../../images/cover-trains.jpg");
+    position: relative;
+    background: linear-gradient(rgba(42, 44, 47, .3), rgba(42, 44, 47, .3)), url("../../images/cover-trains.jpg");
     background-size: cover;
     text-align: center;
     min-height: 740px;
@@ -7,10 +8,23 @@
     flex-flow: column;
     justify-content: center;
     align-items: center;
-
+    z-index: 1;
 }
 
-.cover:hover {
-    background: linear-gradient(rgba(42, 44, 47, 0.8), rgba(42, 44, 47, 0.8)), url("../../images/cover-trains.jpg");
+.cover::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(rgba(42, 44, 47, .8), rgba(42, 44, 47, .8)), url("../../images/cover-trains.jpg");
     background-size: cover;
+    z-index: -1;
+    transition: opacity .5s ease-out;
+    opacity: 0;
+}
+
+.cover:hover::before {
+    opacity: 1;
 }
