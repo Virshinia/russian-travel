@@ -2,6 +2,7 @@
     font-size: 30px;
     line-height: 36px;
     font-weight: normal;
-    margin: 0;
+    margin: 0 auto;
     padding: 32px 0 64px;
+    width: 640px;
 }
