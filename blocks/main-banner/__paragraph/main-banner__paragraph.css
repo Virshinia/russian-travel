@@ -4,5 +4,5 @@
     font-weight: normal;
     margin: 0 auto;
     padding: 32px 0 64px;
-    width: 640px;
+    max-width: 640px;
 }
