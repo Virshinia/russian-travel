@@ -2,13 +2,17 @@
     text-align: center;
     max-width: 984px;
     margin: 0 auto;
+    padding: 56px 0 64px;
 }
 
 /*корректировка макс. ширины для меньших экранов*/
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
     .main-banner {
         max-width: 928px;
+        padding-top: 48px;
     }
 
 }
+
+

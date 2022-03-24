@@ -9,7 +9,7 @@
     padding-top: 8px;
 }
 /*отступ для подписи к фото на маленьких экранах*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 930px) {
     .main-banner__caption {
         margin-left: 24px;
     }
