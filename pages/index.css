@@ -6,10 +6,11 @@
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__language-links/header__language-links.css);
 @import url(../blocks/header/__language-link/header__language-link.css);
-@import url(../blocks/header/__title/header__title.css);
-@import url(../blocks/header/__paragraph/header__paragraph.css);
-@import url(../blocks/header/__image/header__image.css);
-@import url(../blocks/header/__caption/header__caption.css);
+@import url(../blocks/main-banner/__title/main-banner__title.css);
+@import url(../blocks/main-banner/__paragraph/main-banner__paragraph.css);
+@import url(../blocks/main-banner/__image/main-banner__image.css);
+@import url(../blocks/main-banner/__caption/main-banner__caption.css);
+@import url(../blocks/main-banner/main-banner.css);
 @import url(../blocks/gallery/gallery.css);
 @import url(../blocks/gallery/__item/gallery__item.css);
 @import url(../blocks/title/title.css);
