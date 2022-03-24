@@ -3,3 +3,19 @@
     max-width: 964px;
     margin: 0 auto;
 }
+
+/*корректировка макс. ширины для меньших экранов*/
+
+@media screen and (max-width: 1024px) {
+    .intro-text {
+        max-width: 928px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .intro-text {
+        max-width: 720px;
+    }
+
+}

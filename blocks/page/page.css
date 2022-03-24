@@ -2,5 +2,11 @@
     font-family: 'Inter', Arial, sans-serif;
     background-color: #2A2C2F;
     color: #fff;
-    padding: 28px 48px 24px;
+    padding: 28px 0 24px;
+}
+/*добавление отступа по бокам для больших экранов*/
+@media screen and (min-width: 1280px) {
+    .page {
+        padding: 28px 48px 24px;
+    }
 }

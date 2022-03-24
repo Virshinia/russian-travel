@@ -5,6 +5,7 @@
     text-align: center;
     min-height: 740px;
     max-width: 1184px;
+    width:100%;
     display: flex;
     flex-flow: column;
     justify-content: center;
@@ -30,3 +31,23 @@
 .cover:hover::before {
     opacity: 1;
 }
+
+@media screen and (max-width: 1024px) {
+    .cover {
+        min-height: 640px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover {
+        min-height: 480px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover {
+        min-height: 200px;
+    }
+
+}
+
