@@ -18,3 +18,12 @@
 .header__language-link:active {
     text-decoration: underline;
 }
+
+@media screen and (max-width: 424px) {
+    .header__language-link {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+
+}

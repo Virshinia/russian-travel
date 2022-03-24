@@ -1,3 +1,4 @@
 .header__language-links {
-
+    display: flex;
+    align-items: center;
 }
