@@ -15,10 +15,6 @@
     cursor: pointer;
 }
 
-.header__language-link:active {
-    text-decoration: underline;
-}
-
 @media screen and (max-width: 767px) {
     .header__language-link {
         font-size: 18px;
