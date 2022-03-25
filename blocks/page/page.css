@@ -3,6 +3,8 @@
     background-color: #2A2C2F;
     color: #fff;
     padding: 28px 0 24px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
 }
 /*добавление отступа по бокам для больших экранов*/
 @media screen and (min-width: 1280px) {
