@@ -22,7 +22,7 @@
 
 }
 
-@media screen and (max-width: 424px) {
+@media screen and (max-width: 767px) {
 
     .footer {
         flex-flow: column;

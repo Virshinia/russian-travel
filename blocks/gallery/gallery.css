@@ -23,7 +23,7 @@
 
 }
 
-@media screen and (max-width: 424px) {
+@media screen and (max-width: 767px) {
     .gallery {
         padding: 0 16px;
         gap: 12px;
