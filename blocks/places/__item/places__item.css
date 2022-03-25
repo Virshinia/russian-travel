@@ -8,21 +8,21 @@
             "img description";
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 1280px) {
     .places-item {
         gap: 48px 32px;
     }
 
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1024px) {
     .places-item {
         gap: 48px 28px;
     }
 
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     .places__item {
         display: grid;
         grid-template-columns: 1fr;

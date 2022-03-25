@@ -6,21 +6,21 @@
 
 /*корректировка макс. ширины для меньших экранов*/
 
-@media screen and (max-width: 1279px){
+@media screen and (max-width: 1280px){
     .intro-text {
         max-width: 928px;
     }
 
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1024px) {
     .intro-text {
         padding: 88px 24px;
     }
 
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     .intro-text {
         padding: 64px 16px;
     }
