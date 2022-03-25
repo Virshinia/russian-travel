@@ -2,3 +2,12 @@
     display: flex;
     justify-content: space-between;
 }
+
+@media screen and (max-width: 424px) {
+
+    .footer__menu {
+        flex-flow: column;
+        padding-bottom: 48px;
+        gap: 32px;
+    }
+}

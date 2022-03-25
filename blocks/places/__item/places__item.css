@@ -8,16 +8,31 @@
             "img description";
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
     .places-item {
         gap: 48px 32px;
     }
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .places-item {
         gap: 48px 28px;
     }
+
+}
+
+@media screen and (max-width: 424px) {
+    .places__item {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "title"
+            "link"
+            "img"
+            "description";
+        gap: 32px
+    }
+
 
 }
