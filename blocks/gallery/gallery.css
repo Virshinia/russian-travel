@@ -8,16 +8,24 @@
 }
 
 /*корректировка макс. ширины для меньших экранов*/
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
     .gallery {
         max-width: 928px;
+        gap: 14px;
     }
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .gallery {
-        max-width: 720px;
+        padding: 0 24px;
     }
 
+}
+
+@media screen and (max-width: 424px) {
+    .gallery {
+        padding: 0 16px;
+        gap: 12px;
+    }
 }

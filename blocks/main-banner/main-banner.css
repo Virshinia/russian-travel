@@ -2,7 +2,7 @@
     text-align: center;
     max-width: 984px;
     margin: 0 auto;
-    padding: 56px 0 64px;
+    padding-top: 56px;
 }
 
 /*корректировка макс. ширины для меньших экранов*/
