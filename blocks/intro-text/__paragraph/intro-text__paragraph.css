@@ -1,7 +1,13 @@
 .intro-text__paragraph {
     font-size: 16px;
-    line-height: 163%;
+    line-height: 26px;
     font-weight: normal;
     margin: 0 0 33px;
     max-width: 690px;
+}
+
+@media screen and (max-width: 1023px) {
+    .intro-text__paragraph {
+        max-width: 100%;
+    }
 }

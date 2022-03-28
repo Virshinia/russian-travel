@@ -3,23 +3,26 @@
     font-weight: 900;
     line-height: 76px;
     margin: 0;
+    font-kerning: none;
     grid-area: title;
 }
 
 /*корректировка шрифта для меньших экранов*/
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
     .places__title {
         font-size: 42px;
         line-height: 46px;
+        letter-spacing: 0.5px;
     }
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .places__title {
         font-size: 32px;
         line-height: 35px;
         padding: 0 16px;
+        letter-spacing: 0;
     }
 
 }

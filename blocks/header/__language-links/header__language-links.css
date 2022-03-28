@@ -1,4 +1,6 @@
 .header__language-links {
     display: flex;
-    align-items: center;
+    position: absolute;
+    top: 18px;
+    right: 0;
 }

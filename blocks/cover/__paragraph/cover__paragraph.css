@@ -3,6 +3,14 @@
     line-height: 22px;
     font-weight: normal;
     margin: 0 auto;
-    width: 360px;
+    max-width: 360px;
     padding-top: 32px;
+}
+
+@media screen and (max-width: 767px) {
+    .cover__paragraph {
+        font-size: 14px;
+        line-height: 16px;
+        padding: 16px 16px 0;
+    }
 }

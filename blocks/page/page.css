@@ -6,9 +6,18 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale
 }
-/*добавление отступа по бокам для больших экранов*/
+/*добавление отступа альтернативным экранам*/
 @media screen and (min-width: 1280px) {
     .page {
         padding: 28px 48px 24px;
     }
+}
+
+@media screen and (max-width: 767px) {
+
+    .page {
+        padding: 16px 0px 24px;
+    }
+
+
 }
