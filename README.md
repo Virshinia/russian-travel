@@ -8,4 +8,6 @@
 
 HTML, CSS.
 
+[Ссылка на проект в GitHub](https://github.com/Virshinia/russian-travel)
+
 *Автор: Настя Разживина.*
